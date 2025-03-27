@@ -1,0 +1,12 @@
+1. Implementa en Java un método TieneFormatoNIF el cual recibe un array de caracteres y devuelva true si los elementos del array tienen formato de un NIF (Ocho dígitos y una letra en Mayúscula), si en el caso de  de que sea Ñ devolverá false
+
+2. Implementa en Java un método Anum, dado un array de caracteres que tienen el formato de NIF, devuelva el numero entero correspondiente al NIF, sin la letra. Debes tener en cuenta que el array tiene el formato de un NIF (Ocho dígitos además de una Letra Mayúscula la cual la Ñ no será)
+
+3. Nos piden que implementemos una modificación  del algoritmo de la Búsqueda Binaria. Deberá cumplir con las siguientes demandas:
+
+- El algoritmo buscará el primer índice en el que un número dado aparece en un array ordenado (ORDEN ASCENDENTE)
+
+- Si el numero no se encuentra en el array el algoritmo deberá devolver el índice donde el numero  debería ser insertado para mantener el arreglo ordenado
+
+
+4. Implementa en Java la función traducirDirección que recibe un carácter representando un punto cardinal en Nomenclatura Inglesa (N-S-E-W), y que devuelva la palabra que corresponda a la Letra en Español (norte, sur, este, oeste). EN el caso de introducir un carácter erróneo, deberá devolver el siguiente texto "DIRECCIÓN ERRONEA".

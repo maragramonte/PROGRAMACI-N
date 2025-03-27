@@ -1,0 +1,33 @@
+1. Un consultorio médico desea implementar un sistema para calcular el coste de las consultas de sus pacientes en función del número de citas que han tenido. El coste de la consulta varía según la cantidad de citas previas del paciente, de la siguiente manera:
+- Para la primera y segunda cita, el coste es de 200 euros cada una.
+- Para la tercera, cuarta y quinta cita, el coste es de 150 euros cada una.
+- Para la sexta cita y cualquier cita posterior, el coste es de 100 euros cada una.
+- Si el número de cita es menor que 1 (cita inválida), el coste debe ser 0 euros.
+
+Implementa un programa en Java que permita calcular y mostrar el coste de la consulta según el número de cita ingresado. El programa debe incluir ejemplos de uso que muestren el coste para diferentes números de cita, incluyendo casos válidos e inválidos.
+
+2. Un estudiante de programación está desarrollando un programa que determina si un número entero dado es primo o no. Un número se considera primo si es mayor que 1 y no tiene divisores positivos distintos de 1 y de sí mismo. Por lo tanto, los números menores o iguales a 1 no son considerados primos.
+
+Se requiere que implementes un programa en Java que incluya un método para verificar si un número es primo. El programa debe realizar las siguientes tareas:
+
+- Implementa un método llamado esPrimo que reciba un número entero como parámetro y devuelva true si el número es primo y false en caso contrario.
+- El método debe considerar que:
+    - Los números menores o iguales a 1 no son primos.
+    - Para verificar si un número es primo, se debe comprobar si tiene divisores distintos de 1 y de sí mismo, utilizando un bucle que itere desde 2 hasta la raíz cuadrada del número.
+- En el método main, se deben realizar pruebas del método esPrimo con al menos cuatro ejemplos diferentes, mostrando en la consola si cada número es primo o no.
+
+3. Un estudiante de programación está desarrollando un programa que invierte los dígitos de un número entero positivo. El objetivo es crear un método que tome un número como entrada y devuelva un nuevo número que contenga los mismos dígitos pero en orden inverso.
+
+Se requiere que implementes un programa en Java que incluya un método para invertir los dígitos de un número. El programa debe realizar las siguientes tareas:
+
+- Implementar un método llamado invertirNumero que reciba un número entero positivo como parámetro y devuelva un nuevo número con los dígitos invertidos.
+- El método debe utilizar un bucle para extraer los dígitos del número original y construir el número invertido.
+- En el método main, se deben realizar pruebas del método invertirNumero con al menos cuatro ejemplos diferentes, mostrando en la consola el número original y su versión invertida.
+
+4. Un estudiante de programación está desarrollando un programa que calcula la suma de todos los números impares en un intervalo dado. El programa debe permitir al usuario especificar dos números enteros, a y b, y calcular la suma de todos los números impares que se encuentran entre a y b, incluyendo ambos extremos.
+
+Se requiere que implementes un programa en Java que incluya un método para sumar los números impares en el intervalo [a, b]. El programa debe realizar las siguientes tareas:
+
+- Implementar un método llamado sumaImpares que reciba dos números enteros a y b como parámetros y devuelva la suma de todos los números impares en el intervalo [a, b].
+- Si a es mayor que b, el método debe retornar 0, indicando que el intervalo es inválido.
+- En el método main, se deben realizar pruebas del método sumaImpares con al menos tres ejemplos diferentes, mostrando en la consola la suma de los números impares para cada intervalo especificado.
